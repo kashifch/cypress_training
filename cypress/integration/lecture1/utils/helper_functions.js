@@ -12,7 +12,6 @@ class HelperFunctions {
                 body: {
                     email: 'temp_user@yopmail.com',
                     password: 'edxedxedx1',
-                    remember: false,
                 },
                 headers: {
                     Referer: 'https://courses.stage.edx.org/login/',

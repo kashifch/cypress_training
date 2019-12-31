@@ -2,7 +2,7 @@ import login from '../helpers/login_api'
 
 describe('Login tests', () => {
     before(() => {
-        login.loginApi()
+        login.loginApi(Cypress.env('USER_EMAIL'), Cypress.env('user_password'))
     })
 
     beforeEach(()=> {

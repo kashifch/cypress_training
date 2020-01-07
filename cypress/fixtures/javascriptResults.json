@@ -1,0 +1,820 @@
+{
+  "dates": [],
+  "queries": {
+    "availability_upcoming": {
+      "count": 1,
+      "distinct_count": 1,
+      "query_string": "selected_query_facets[]=availability_upcoming",
+      "url": "https://stage.edx.org/api/v1/catalog/search?selected_query_facets[]=availability_upcoming&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+    }
+  },
+  "fields": {
+    "subjects": [
+      {
+        "text": "Computer Science",
+        "count": 26,
+        "distinct_count": 18,
+        "query_string": "selected_facets[]=subjects_exact%3AComputer+Science",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3AComputer+Science&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Biology & Life Sciences",
+        "count": 7,
+        "distinct_count": 2,
+        "query_string": "selected_facets[]=subjects_exact%3ABiology+%26+Life+Sciences",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3ABiology+%26+Life+Sciences&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Business & Management",
+        "count": 6,
+        "distinct_count": 3,
+        "query_string": "selected_facets[]=subjects_exact%3ABusiness+%26+Management",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3ABusiness+%26+Management&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Engineering",
+        "count": 5,
+        "distinct_count": 3,
+        "query_string": "selected_facets[]=subjects_exact%3AEngineering",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3AEngineering&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Communication",
+        "count": 4,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=subjects_exact%3ACommunication",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3ACommunication&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Design",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=subjects_exact%3ADesign",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3ADesign&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Electronics",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=subjects_exact%3AElectronics",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3AElectronics&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Health & Safety",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=subjects_exact%3AHealth+%26+Safety",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3AHealth+%26+Safety&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "History",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=subjects_exact%3AHistory",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3AHistory&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Social Sciences",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=subjects_exact%3ASocial+Sciences",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=subjects_exact%3ASocial+Sciences&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "pacing_type": [
+      {
+        "text": "self_paced",
+        "count": 18,
+        "distinct_count": 12,
+        "query_string": "selected_facets[]=pacing_type_exact%3Aself_paced",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=pacing_type_exact%3Aself_paced&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "instructor_paced",
+        "count": 15,
+        "distinct_count": 11,
+        "query_string": "selected_facets[]=pacing_type_exact%3Ainstructor_paced",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=pacing_type_exact%3Ainstructor_paced&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "first_enrollable_paid_seat_price": [],
+    "type": [
+      {
+        "text": "XSeries",
+        "count": 2,
+        "distinct_count": 2,
+        "query_string": "selected_facets[]=type_exact%3AXSeries",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=type_exact%3AXSeries&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "honor",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=type_exact%3Ahonor",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=type_exact%3Ahonor&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "organizations": [
+      {
+        "text": "Microsoft: Microsoft",
+        "count": 6,
+        "distinct_count": 6,
+        "query_string": "selected_facets[]=organizations_exact%3AMicrosoft%3A+Microsoft",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AMicrosoft%3A+Microsoft&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "USMx: University System of Maryland",
+        "count": 6,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AUSMx%3A+University+System+of+Maryland",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AUSMx%3A+University+System+of+Maryland&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "HarvardX: Harvard University",
+        "count": 5,
+        "distinct_count": 3,
+        "query_string": "selected_facets[]=organizations_exact%3AHarvardX%3A+Harvard+University",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AHarvardX%3A+Harvard+University&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "ThunderbirdX: Thunderbird School of Global Management",
+        "count": 4,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AThunderbirdX%3A+Thunderbird+School+of+Global+Management",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AThunderbirdX%3A+Thunderbird+School+of+Global+Management&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "RITx: Rochester Institute of Technology",
+        "count": 2,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3ARITx%3A+Rochester+Institute+of+Technology",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3ARITx%3A+Rochester+Institute+of+Technology&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "BerkeleyX: University of California, Berkeley",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3ABerkeleyX%3A+University+of+California%2C+Berkeley",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3ABerkeleyX%3A+University+of+California%2C+Berkeley&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "DelftX: Delft University of Technology (TU Delft)",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3ADelftX%3A+Delft+University+of+Technology+%28TU+Delft%29",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3ADelftX%3A+Delft+University+of+Technology+%28TU+Delft%29&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "EPFLx: École polytechnique fédérale de Lausanne",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AEPFLx%3A+%C3%89cole+polytechnique+f%C3%A9d%C3%A9rale+de+Lausanne",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AEPFLx%3A+%C3%89cole+polytechnique+f%C3%A9d%C3%A9rale+de+Lausanne&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "GeorgetownX: Georgetown University",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AGeorgetownX%3A+Georgetown+University",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AGeorgetownX%3A+Georgetown+University&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "KULeuvenX: KU Leuven University",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AKULeuvenX%3A+KU+Leuven+University",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AKULeuvenX%3A+KU+Leuven+University&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "LouvainX: Université catholique de Louvain",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3ALouvainX%3A+Universit%C3%A9+catholique+de+Louvain",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3ALouvainX%3A+Universit%C3%A9+catholique+de+Louvain&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "PennX: University of Pennsylvania",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3APennX%3A+University+of+Pennsylvania",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3APennX%3A+University+of+Pennsylvania&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "TUMx: Technische Universität München",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3ATUMx%3A+Technische+Universit%C3%A4t+M%C3%BCnchen",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3ATUMx%3A+Technische+Universit%C3%A4t+M%C3%BCnchen&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "UBCx: University of British Columbia",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AUBCx%3A+University+of+British+Columbia",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AUBCx%3A+University+of+British+Columbia&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "UC BerkeleyX: Berkeley",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AUC+BerkeleyX%3A+Berkeley",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AUC+BerkeleyX%3A+Berkeley&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "UPValenciaX: Universitat Politècnica de Valencia",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AUPValenciaX%3A+Universitat+Polit%C3%A8cnica+de+Valencia",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AUPValenciaX%3A+Universitat+Polit%C3%A8cnica+de+Valencia&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "W3Cx: The World Wide Web Consortium (W3C)",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=organizations_exact%3AW3Cx%3A+The+World+Wide+Web+Consortium+%28W3C%29",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=organizations_exact%3AW3Cx%3A+The+World+Wide+Web+Consortium+%28W3C%29&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "transcript_languages": [
+      {
+        "text": "English",
+        "count": 31,
+        "distinct_count": 21,
+        "query_string": "selected_facets[]=transcript_languages_exact%3AEnglish",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=transcript_languages_exact%3AEnglish&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Spanish",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=transcript_languages_exact%3ASpanish",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=transcript_languages_exact%3ASpanish&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "status": [
+      {
+        "text": "published",
+        "count": 33,
+        "distinct_count": 22,
+        "query_string": "selected_facets[]=status_exact%3Apublished",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=status_exact%3Apublished&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "active",
+        "count": 2,
+        "distinct_count": 2,
+        "query_string": "selected_facets[]=status_exact%3Aactive",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=status_exact%3Aactive&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "prerequisites": [],
+    "seat_types": [
+      {
+        "text": "honor",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=seat_types_exact%3Ahonor",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=seat_types_exact%3Ahonor&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "level_type": [
+      {
+        "text": "Intermediate",
+        "count": 13,
+        "distinct_count": 10,
+        "query_string": "selected_facets[]=level_type_exact%3AIntermediate",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=level_type_exact%3AIntermediate&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Advanced",
+        "count": 10,
+        "distinct_count": 4,
+        "query_string": "selected_facets[]=level_type_exact%3AAdvanced",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=level_type_exact%3AAdvanced&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Introductory",
+        "count": 10,
+        "distinct_count": 8,
+        "query_string": "selected_facets[]=level_type_exact%3AIntroductory",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=level_type_exact%3AIntroductory&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "language": [
+      {
+        "text": "English",
+        "count": 33,
+        "distinct_count": 23,
+        "query_string": "selected_facets[]=language_exact%3AEnglish",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=language_exact%3AEnglish&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "Spanish",
+        "count": 1,
+        "distinct_count": 1,
+        "query_string": "selected_facets[]=language_exact%3ASpanish",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=language_exact%3ASpanish&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "content_type": [
+      {
+        "text": "courserun",
+        "count": 33,
+        "distinct_count": 22,
+        "query_string": "selected_facets[]=content_type_exact%3Acourserun",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=content_type_exact%3Acourserun&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "program",
+        "count": 2,
+        "distinct_count": 2,
+        "query_string": "selected_facets[]=content_type_exact%3Aprogram",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=content_type_exact%3Aprogram&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ],
+    "mobile_available": [
+      {
+        "text": "T",
+        "count": 22,
+        "distinct_count": 15,
+        "query_string": "selected_facets[]=mobile_available_exact%3AT",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=mobile_available_exact%3AT&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      },
+      {
+        "text": "F",
+        "count": 11,
+        "distinct_count": 8,
+        "query_string": "selected_facets[]=mobile_available_exact%3AF",
+        "url": "https://stage.edx.org/api/v1/catalog/search?selected_facets[]=mobile_available_exact%3AF&page=1&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript"
+      }
+    ]
+  },
+  "objects": {
+    "count": 35,
+    "next": "https://stage.edx.org/api/v1/catalog/search?page=2&page_size=9&partner=edx&hidden=0&content_type[]=courserun&content_type[]=program&featured_course_ids=course-v1%3AMichiganX+UX501x+3T2016%2Ccourse-v1%3ARITx+PM9001x+1T2017%2Ccourse-v1%3ABerkeleyX+ColWri2.1x+3T2016%2Ccourse-v1%3AMicrosoft+DAT206x+6T2016%2Ccourse-v1%3AHarvardX+CS50+X&featured_programs_uuids=1a0c2175-cf1b-4375-ae71-166ffa84abb3%2C10339d1d-239d-4e36-b524-8ce0fdf2d0c0%2C38dde1fd-e9a4-4f4b-9c87-87a3d0161830&query=Javascript",
+    "previous": null,
+    "results": [
+      {
+        "start": "2017-10-01T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:W3Cx+JS.0x+3T2017",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "e3c306a5-f985-4c36-a157-a947aec040e8"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": 6,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/logo/w3c-200x101.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "083e855b-d6f4-447c-8b00-84180eec90ad"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage.edx.org/sites/default/files/course/image/promoted/js-introduction_378x225.jpg",
+        "max_effort": 8,
+        "program_types": [],
+        "org": "W3Cx",
+        "number": "JS.0x",
+        "enrollment_end": null,
+        "short_description": "Learn JavaScript, a Web development programming language, to add interactivity to your Web pages, and become an expert Web developer.",
+        "pacing_type": "self_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:W3Cx+JS.0x",
+        "level_type": "Introductory",
+        "title": "JavaScript Introduction",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580"
+        ],
+        "weeks_to_complete": 5,
+        "published": true,
+        "full_description": "<p>This course is part of <a href=\"https://www.edx.org/professional-certificate/front-end-web-developer-9\">W3C's \"Front-End Web Developer\" Professional Certificate</a> and <a href=\"https://www.edx.org/microsoft-professional-program-front-end-development\">Microsoft's Professional Program Certificate in Front-End Web Development</a>.</p>\n<p><img alt=\"\" src=\"https://www.edx.org/sites/default/files/idex-ucajedi.png\" /></p>\n<p>This computer science course is an initiation to JavaScript programming and has been designed to help Web developers have an understanding of the basic concepts of the language. This course was developed in partnership between W3C and University Côte d'Azur.</p>\n<p>JavaScript lets you add interactive features to your Web sites, including dynamically updated content, controlled multimedia, animated images, and much more.</p>\n<p>The main objective of this course is to master JavaScript best practices by means of many interactive examples, some of which are demonstrated in live coding videos.</p>\n<p>We’ll use JavaScript within the Web browser. Why JavaScript is worth your time:</p>\n<ul>\n<li>HTML5, CSS and JavaScript are the “classic three” for developers and designers;</li>\n<li>It allows you to add interactivity to your Web sites;</li>\n<li>You can use JavaScript and HTML5 APIs to create custom graphics and animation, and to master multimedia using audio and video players, music and sound effects;</li>\n<li>It is powerful, easy to learn, and quick to write;</li>\n<li>It has great tools (editors, runtimes, lint tools, browsers, and third party libraries) as well as great online support through plenty of active open source communities.</li>\n</ul>\n<p>At the end of the course, we expect that you will be able to read the source code of any JavaScript example found on the Web, learn from it, tweak it, and even – why not? – start contributing to open-source JavaScript projects. This introductory course will make you think like a JavaScript developer.</p>"
+      },
+      {
+        "start": "2016-03-03T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:Microsoft+DEV208x+2T2016",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "896bbb25-cf7e-4f80-8ac1-477199c305ef"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": 3,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/logo/microsoft201x101.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "7e1c6e91-d08d-44e5-b2a7-c194b5b896ef"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage-discovery.edx-cdn.org/media/course/image/b7595960-59a9-48c6-b30c-96ac325f4773.small.jpg",
+        "max_effort": 4,
+        "program_types": [],
+        "org": "Microsoft",
+        "number": "DEV208x",
+        "enrollment_end": null,
+        "short_description": "Learn how to use jQuery to simplify common tasks in JavaScript to quickly add interactivity to web pages.",
+        "pacing_type": "self_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:Microsoft+DEV208x",
+        "level_type": "Intermediate",
+        "title": "Introduction to jQuery",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580"
+        ],
+        "weeks_to_complete": 3,
+        "published": true,
+        "full_description": "<p>jQuery is the most popular library for JavaScript. In this jQuery tutorial, the experts at Microsoft will show you how to use jQuery to add additional power and interactivity to your web pages. You’ll see how to take advantage of jQuery in your web pages, how to work with the HTML document, and even make server-side calls.</p>\n<p>Using jQuery, the JavaScript programmer has access to many of the powerful tools common to desktop and mobile developers, like building event handlers and using effects for a responsive UI, the ability to manipulate your user interface without having to refresh the entire page, and creating asynchronous calls to keep your web application responsive. With jQuery, you’ll be able to take your web pages to the next level!</p>"
+      },
+      {
+        "start": "2016-03-25T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:Microsoft+DEV211.1x+1T2016",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "896bbb25-cf7e-4f80-8ac1-477199c305ef"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": 2,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/logo/microsoft201x101.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "fb4f483d-eb10-4b4c-bbcb-c943f3ca1f4a"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage-discovery.edx-cdn.org/media/course/image/ad9ba8a2-7afb-4f05-876f-a79ccc9aeac9.small.jpg",
+        "max_effort": 3,
+        "program_types": [],
+        "org": "Microsoft",
+        "number": "DEV211.1x",
+        "enrollment_end": null,
+        "short_description": "Learn the essential skills to create an interactive web application using HTML5, JavaScript CSS, and CSS3.",
+        "pacing_type": "instructor_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:Microsoft+DEV211.1x",
+        "level_type": "Introductory",
+        "title": "JavaScript, HTML and CSS Web Development",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580",
+          "337dfb23-571e-49d7-9c8e-385120dea6f3"
+        ],
+        "weeks_to_complete": 5,
+        "published": true,
+        "full_description": "<p>This computer science course introduces JavaScript, HTML and CSS as programming and markup languages that are used to create web applications. The learner will gain experience with each language individually and then combine them together to create compelling web application solutions. The learner will have an opportunity to use Visual Studio Code on their operating system of choice to create and test their web applications.</p>\n<p>This course teaches basic tasks that are necessary to create web applications with a strong semantic structure, re-usable style components and custom interactive features. This course includes hands-on labs that enable the learner to build basic HTML pages that are the components of a web application used to solve real world problems.</p>"
+      },
+      {
+        "start": "2017-08-28T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:PennX+SD4x+2T2017",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "fc03b413-d5d6-48af-974f-21da4d244ee8"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": 6,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/logo/pennx-logo12012015-200x101.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "eae21e8a-2b84-44a7-85a2-4d0cfd8e358b",
+          "d33250d1-6fca-484b-8ab6-a74281dba251"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage.edx.org/sites/default/files/course/image/promoted/sd4x_378x225.jpg",
+        "max_effort": 8,
+        "program_types": [],
+        "org": "PennX",
+        "number": "SD4x",
+        "enrollment_end": null,
+        "short_description": "Learn how to develop dynamic, interactive, and data-driven web apps using JavaScript.",
+        "pacing_type": "self_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:PennX+SD4x",
+        "level_type": "Intermediate",
+        "title": "Programming for the Web with JavaScript",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580",
+          "0d7bb9ed-4492-419a-bb44-415adafd9406"
+        ],
+        "weeks_to_complete": 4,
+        "published": true,
+        "full_description": "<p>JavaScript is the programming language of the World Wide Web.</p>\n<p>As a professional web software developer, you will not only need to know how to program in this simple yet powerful language, but you will need to understand the fundamentals of how data is exchanged on the World Wide Web (WWW) and what tools and frameworks are available to you for creating robust, interactive web applications.</p>\n<p>This course, part of the CS Essentials for Software Development Professional Certificate program, provides an introduction to modern web development using JavaScript. In addition to exploring the basics of web page creation using HTML and CSS, you will learn advanced web page layout and responsive design tools such as Bootstrap. You will also learn how browsers represent a web page data using the Document Object Model (DOM) and how to develop dynamic, interactive web pages using JavaScript in the browser. Beyond fundamental JavaScript syntax and advanced language features such as callbacks, events, and asynchronous programming, you will work with jQuery, which provides functionality for simplified DOM manipulation and event handling.</p>\n<p>This course will also introduce you to modern web frameworks and component-based libraries such as React.js for efficiently developing modular web page components, and D3.js for creating data-driven documents. We will also teach you how to represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>\n<p>Server-side JavaScript is becoming more prevalent in the industry, with web frameworks such as Node.js and Express making it simple to create and deploy complex, data-driven web applications. This course will prepare you to use such frameworks and show you how to integrate them with NoSQL databases such as MongoDB.</p>"
+      },
+      {
+        "start": "2016-11-07T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:EPFLx+NiC1.0x+3T2016",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "6f244695-7416-4c6c-a2a9-97769b6acb56"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": 3,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/banner/epfl_logo_200x101_0.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "50677cc7-3bb9-438d-8d38-8745bb8b1c2e"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage-discovery.edx-cdn.org/media/course/image/ee7550f3-31c3-4dc8-8773-563482ec88ac.small.jpg",
+        "max_effort": 4,
+        "program_types": [],
+        "org": "EPFLx",
+        "number": "NiC1.0x",
+        "enrollment_end": null,
+        "short_description": "Learn JavaScript programming by implementing key biology concepts in code, including natural selection, genetics and epidemics.",
+        "pacing_type": "self_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:EPFLx+NiC1.0x",
+        "level_type": "Intermediate",
+        "title": "Nature, in Code: Biology in JavaScript",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580",
+          "9d5b5edb-254a-4d54-b430-776f1f00eaf0"
+        ],
+        "weeks_to_complete": 7,
+        "published": true,
+        "full_description": "<p>If you are interested in learning programming, but find pure programming courses not very exciting, this course is for you.</p>\n<p>Instead of just learning programming principles outside of any context, you will learn JavaScript programming by implementing key biological concepts in code so they can run in your browser.</p>\n<p>If you know a little (or a lot of) programming already, but want to learn more about the rules that govern life without having to pick up a traditional academic textbook, this course will also be of interest to you. You will learn some key ideas that form the basis of modern biology, from population genetics to evolutionary biology to infectious disease spread.</p>\n<p>No prior programming knowledge needed.</p>"
+      },
+      {
+        "staff_uuids": [
+          "07d7b3d0-8a25-4c72-ac31-0b69c8ba8088",
+          "31602682-ddd1-4a78-a892-d77828ce9893",
+          "6720c3c6-6771-4a49-a834-d9358dac2e02",
+          "91d01d2c-939b-441c-9ccb-4339528f67ad",
+          "e4354ca0-908e-4fca-90d2-11ea51ab97a0",
+          "2af8dbac-6ee9-47ac-b261-9e4ff06d8da4",
+          "f2a4c4cf-b184-4f3e-a36b-85ad745a1f5a",
+          "d69c04f7-2bf1-4125-86b5-1b08d8f5320d",
+          "7c06966a-1c50-45e1-90e3-c89a6ec14af7",
+          "72ec41fa-2ec6-4745-b05a-708ec7bdebc9"
+        ],
+        "uuid": "e7edce5f-0c4a-44d8-8bbb-d686edc34f0b",
+        "card_image_url": "https://stage.edx.org/sites/default/files/card/images/ph525x_2015_378x225_0.jpg",
+        "min_hours_effort_per_week": null,
+        "search_card_display": [],
+        "status": "active",
+        "type": "XSeries",
+        "max_hours_effort_per_week": null,
+        "weeks_to_complete_min": 4,
+        "authoring_organizations": [
+          {
+            "banner_image_url": "https://stage.edx.org/sites/default/files/school/image/banner/harvardx.jpg",
+            "description": "<p>Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders in many disciplines who make a difference globally. Harvard faculty are engaged with teaching and research to push the boundaries of human knowledge. The University has twelve degree-granting Schools in addition to the Radcliffe Institute for Advanced Study.</p>\n<p>Established in 1636, Harvard is the oldest institution of higher education in the United States. The University, which is based in Cambridge and Boston, Massachusetts, has an enrollment of over 20,000 degree candidates, including undergraduate, graduate, and professional students. Harvard has more than 360,000 alumni around the world.</p>",
+            "uuid": "44022f13-20df-4666-9111-cede3e5dc5b6",
+            "logo_image_url": "https://stage.edx.org/sites/default/files/school/image/banner/harvard_logo_200x101_0.png",
+            "marketing_url": "https://stage.edx.org/school/harvardx",
+            "key": "HarvardX",
+            "tags": [
+              "founder",
+              "charter",
+              "displayed_on_schools_and_partners_page"
+            ],
+            "slug": "harvardx",
+            "name": "Harvard University",
+            "auto_generate_course_run_keys": true,
+            "homepage_url": null,
+            "certificate_logo_image_url": "https://edxuploads.s3.amazonaws.com/organization_logos/logo-harvardx.png"
+          }
+        ],
+        "authoring_organization_uuids": [
+          "44022f13-20df-4666-9111-cede3e5dc5b6"
+        ],
+        "aggregation_key": "program:e7edce5f-0c4a-44d8-8bbb-d686edc34f0b",
+        "partner": "edx",
+        "title": "Genomics Data Analysis",
+        "subject_uuids": [
+          "a168a80a-4b6c-4d92-9f1d-4c235206feaf",
+          "9d5b5edb-254a-4d54-b430-776f1f00eaf0",
+          "f830cfeb-bb7e-46ed-859d-e2a9f136499f",
+          "a5db73b2-05b4-4284-beef-c7876ec1499b"
+        ],
+        "content_type": "program",
+        "hidden": false,
+        "is_program_eligible_for_one_click_purchase": false,
+        "marketing_url": "https://stage.edx.org/xseries/genomics-data-analysis",
+        "weeks_to_complete_max": 9,
+        "published": true,
+        "language": [
+          "English"
+        ],
+        "subtitle": "Learn advanced techniques to analyze genomics data using open source software, including R and Bioconductor."
+      },
+      {
+        "staff_uuids": [
+          "5983b56d-43b2-4730-ba6f-0f09f7a6f3f3",
+          "daf8e08e-3359-4d10-886b-5a591cbc8af4",
+          "203bd2fc-0dfe-40c6-857f-79208431ef3a"
+        ],
+        "uuid": "84c0290b-264f-48ee-acd2-8598130440ca",
+        "card_image_url": "https://stage.edx.org/sites/default/files/card/images/ruby-rails-programming-378x225.jpg",
+        "min_hours_effort_per_week": null,
+        "search_card_display": [],
+        "status": "active",
+        "type": "XSeries",
+        "max_hours_effort_per_week": null,
+        "weeks_to_complete_min": 6,
+        "authoring_organizations": [
+          {
+            "banner_image_url": null,
+            "description": "test Berkeley Certificate",
+            "uuid": "54d3fa64-a5e3-4d9d-a0f8-9f0cf1584b69",
+            "logo_image_url": "https://edxuploads.s3.amazonaws.com/organization_logos/logo-berkeleyx.png",
+            "marketing_url": "https://stage.edx.org/school/berkeleyx",
+            "key": "BerkeleyX",
+            "tags": [],
+            "slug": "berkeleyx",
+            "name": "University of California, Berkeley",
+            "auto_generate_course_run_keys": true,
+            "homepage_url": null,
+            "certificate_logo_image_url": "https://edxuploads.s3.amazonaws.com/organization_logos/logo-berkeleyx.png"
+          }
+        ],
+        "authoring_organization_uuids": [
+          "54d3fa64-a5e3-4d9d-a0f8-9f0cf1584b69"
+        ],
+        "aggregation_key": "program:84c0290b-264f-48ee-acd2-8598130440ca",
+        "partner": "edx",
+        "title": "Agile Development Using Ruby on Rails",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580"
+        ],
+        "content_type": "program",
+        "hidden": false,
+        "is_program_eligible_for_one_click_purchase": false,
+        "marketing_url": "https://stage.edx.org/xseries/agile-development-using-ruby-rails",
+        "weeks_to_complete_max": 6,
+        "published": true,
+        "language": [
+          "English"
+        ],
+        "subtitle": "Learn the Ruby programming language and the Ruby on Rails Model-View-Controller (MVC) web application development framework."
+      },
+      {
+        "start": "2016-09-12T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:HarvardX+SOC1.jsx+2016",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "44022f13-20df-4666-9111-cede3e5dc5b6"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": 3,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/banner/harvard_logo_200x101_0.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "d4d41e67-dacf-4d0a-9ee9-2018ca2fe3eb"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage-discovery.edx-cdn.org/media/course/image/9b2e3ac2-a40d-4ee9-947d-aa09af1bd95d.small.jpg",
+        "max_effort": 5,
+        "program_types": [],
+        "org": "HarvardX",
+        "number": "SOC1.jsx",
+        "enrollment_end": null,
+        "short_description": "An in-depth look at the 1854 London cholera epidemic in Soho and its importance for the field of epidemiology.",
+        "pacing_type": "self_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:HarvardX+SOC1.jsx",
+        "level_type": "Introductory",
+        "title": "PredictionX: John Snow and the Cholera Epidemic of 1854",
+        "subject_uuids": [
+          "c8579e1c-99f2-4a95-988c-3542909f055e",
+          "51a13a1c-7fc8-42a6-9e96-6636d10056e2"
+        ],
+        "weeks_to_complete": 1,
+        "published": true,
+        "full_description": "<p>In 1854, a cholera epidemic swept through the London neighborhood of Soho. In the course of about three weeks, over 600 people died. This incident was, tragically, not unusual in London or the rest of the 19th century world as a whole. The scourge of cholera seemed unstoppable and, even worse, unpredictable. But one doctor -- ignored by the scientific community at large -- set out to prove that he knew how cholera was spread.</p>\n<p>Join us for this one-week, immersive learning experience. We will explore John Snow’s London, from the streets of Soho to the dataset that helped create the map that changed our understanding of cholera and epidemiology forever.</p>\n<p>This course features interactive tools including an interactive ArcGIS map of the 1854 cholera outbreak and a Timeline JS of John Snow’s investigation. </p>\n<p>This module is a part of PredictionX, which looks at the history of attempts to predict the future. PredictionX courses will cover topics from omens and oracles in ancient civilizations to modern computer simulations.</p>"
+      },
+      {
+        "start": "2016-11-21T00:00:00Z",
+        "seat_types": null,
+        "enrollment_start": null,
+        "key": "course-v1:Microsoft+DEV218x+3T2016",
+        "availability": "Current",
+        "go_live_date": null,
+        "type": null,
+        "authoring_organization_uuids": [
+          "896bbb25-cf7e-4f80-8ac1-477199c305ef"
+        ],
+        "transcript_languages": [
+          "English"
+        ],
+        "partner": "edx",
+        "has_enrollable_seats": false,
+        "min_effort": null,
+        "content_type": "courserun",
+        "mobile_available": true,
+        "marketing_url": null,
+        "logo_image_urls": [
+          "https://stage.edx.org/sites/default/files/school/image/logo/microsoft201x101.png"
+        ],
+        "language": "English",
+        "staff_uuids": [
+          "ea830b77-735e-4aad-9d95-de9f91483ca4",
+          "703e745b-fc73-4cd1-8310-503c22ab6839",
+          "a2502b9c-9abf-4918-b7e0-a8ef5267b5bf",
+          "c78b6d46-817b-41b1-912c-6c3901631f9a",
+          "af03471f-2457-4dae-9ac1-6d9121ae48e1"
+        ],
+        "first_enrollable_paid_seat_price": null,
+        "end": null,
+        "image_url": "https://stage-discovery.edx-cdn.org/media/course/image/4acaa2fa-e7b9-4d57-acef-999a5e44c231.small.jpg",
+        "max_effort": 3,
+        "program_types": [],
+        "org": "Microsoft",
+        "number": "DEV218x",
+        "enrollment_end": null,
+        "short_description": "Gain a solid foundation in developing and testing device-friendly websites using the power of CSS.",
+        "pacing_type": "self_paced",
+        "first_enrollable_paid_seat_sku": null,
+        "aggregation_key": "courserun:Microsoft+DEV218x",
+        "level_type": "Intermediate",
+        "title": "Advanced CSS Concepts",
+        "subject_uuids": [
+          "e52e2134-a4e4-4fcb-805f-cbef40812580"
+        ],
+        "weeks_to_complete": 4,
+        "published": true,
+        "full_description": "<p>In this computer science course, you will learn how to design, develop and test device-friendly websites using CSS, one of the core technologies used for building web pages. You’ll also learn how to use Flexbox, SVG images, linting and other web developer tools to enhance your web pages.</p>\n<p>This course is intended for:</p>\n<ul>\n<li>Anyone who wants to learn Advanced CSS, any junior-level developers, students, or anyone who already has some HTML, CSS, and JavaScript training or knowledge.</li>\n<li>People who want to make a living (or side-income) from web page design/development.</li>\n</ul>"
+      }
+    ],
+    "distinct_count": 24
+  },
+  "no_matches": false
+}

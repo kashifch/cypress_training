@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Confirm Box</h2>
+
+
+
+<button onclick="okayAlert()">Okay</button>
+<button onclick="cancelAlert()">Cancel</button>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function okayAlert() {
+  alert("You clicked Okay");
+}
+function cancelAlert() {
+  alert("You Clicked Cancel");
+}
+
+
+function myFunction() {
+  var person = prompt("Please enter your name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person;
+  }
+}
+</script>
+
+</body>
+</html>
